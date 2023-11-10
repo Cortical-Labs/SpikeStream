@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>SpikeStream Visualisation</title>
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap-reboot.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Open+Sans&display=swap" rel="stylesheet">
+
+    <link href="css/main.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/loading-bar.min.css"/>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-151428731-2"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'UA-151428731-2');
+    </script>
+
+</head>
+
+<body>
+    <script
+        src="https://cdn.jsdelivr.net/combine/npm/three@0.112.1,npm/three@0.112.1/examples/js/controls/OrbitControls.min.js"></script>
+
+    <header>
+        <a class="logo" href="#">
+            <img src="img/side_logo.svg"></img>
+        </a>
+        <div class="buttons">
+            <img id="play-pause" src="img/play.svg"></img>
+            <input id="scrubber" type="range" value="1" min="1" max="1000" />
+            <span id="playback-time">0:00 / 0:00</span>
+        </div>
+    </header>
+
+    <div class="panels">
+        <div class="sidebar">
+            <div id="control-panel" class="panel">
+                <div class="header">
+                    <h2>Control Panel</h2><div class="chevron up"></div>
+                </div>
+                <div class="mobile-hide">
+                    Spike Decay Period: <span id="decay-label">3 sec</span>
+                    <div id="decay" class="control">
+                        <label>1 sec</label>
+                        <input id="decay-slider" type="range" min="1" max="10"></input>
+                        <label>10 sec</label>
+                    </div>
+                    Max Amplitude: <span id="current-max-amp">0μV</span>
+                    <div id="amplitude" class="control">
+                        <label>0μV</label>
+                        <input id="amplitude-slider" type="range" min="0" max="100"></input>
+                        <label id="max-amp-label">1μV</label>
+                    </div>
+                </div>
+            </div>
+            <div id="electrode-info" class="panel">
+                <div class="header">
+                    <h2>Electrode Info</h2><div class="chevron up"></div>
+                </div>
+                <div class="mobile-hide">
+                    <table>
+                        <tr>
+                            <td>Electrode Number:</td>
+                            <td class="data" id="electrode-number-label">0</td>
+                        </tr>
+                        <tr>
+                            <td>Electrode Coordinate:</td>
+                            <td class="data" id="electrode-coord-label">(x,y)</td>
+                        </tr>
+                        <!--<tr>
+                            <td>Last spike time:</td>
+                            <td class="data">0:00</td>
+                        </tr>
+                        <tr>
+                            <td>Last spike amplitude:</td>
+                            <td class="data">μV</td>
+                        </tr>-->
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <div id="game" class="panel">
+            <div class="header">
+                <h2>Game Visualiser</h2>
+                <div class="chevron up"></div>
+            </div>
+            <div class="mobile-hide">
+                <canvas id="game-canvas"></canvas>
+            </div>
+        </div>
+    </div>
+
+    <script type="module" src="js/main.js"></script>
+    <script type="text/javascript" src="js/loading-bar.min.js"></script>
+    
+</body>
+
+</html>

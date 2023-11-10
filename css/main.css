@@ -1,0 +1,179 @@
+html,
+body {
+    font-family: 'Open Sans', sans-serif;
+    height: 100%;
+    width:100%;
+    margin: 0;
+    padding: 0;
+    background: black;
+    overflow: hidden;
+}
+
+canvas:active {
+    cursor: grabbing;
+}
+
+header {
+    position: fixed;
+    padding: 16px;
+    color: #fff;
+    vertical-align: middle;
+    width: 100%;
+}
+
+header .buttons {
+    display: block;
+    background: rgba(80, 80, 80, 0.5);
+    font-size: 0.8rem;
+    color: #fff;
+    border-radius: 6px;
+    border: 1px solid rgba(255,255,255,0.3);
+    padding: 10px 15px;
+    margin: 12px 0;
+    float: left;
+    clear: left;
+}
+
+#play-pause, #scrubber, #playback-time {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.logo img {
+    height: 32px;
+    display: block;
+    margin-top: 8px;
+}
+
+.panels {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-start;
+    position: fixed;
+    top: 112px;
+    padding: 0 16px;
+    pointer-events: none;
+}
+
+.panel {
+    background: rgba(80, 80, 80, 0.5);
+    font-size: 0.8rem;
+    color: #fff;
+    border-radius: 6px;
+    border: 1px solid rgba(255,255,255,0.3);
+    padding: 10px 15px;
+    margin: 4px 0;
+    pointer-events: all;
+}
+
+.panel .header {
+    border-bottom: 1px solid rgba(255,255,255,0.3);
+    padding: 0 0 10px 0;
+    margin: 0 0 10px 0;
+}
+
+.panel h2 {
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+    font-weight: 400;
+    display: inline;
+    vertical-align: middle;
+}
+
+.panel img {
+    height: 19px;
+    vertical-align: middle;
+    float: right;
+}
+
+.panel div {
+    height: auto;
+    overflow: hidden;
+}
+
+.panel div.hide {
+    height: 0;
+    transition: max-height 1.00s;
+}
+
+#game canvas {
+    opacity: 0.66;
+    width: 180px;
+    height: 180px;
+}
+
+#electrode-info table {
+    width: 100%;
+}
+
+#electrode-info td.data {
+    float: right;
+}
+
+.control label, input {
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 0;
+}
+
+.chevron {
+    background-position: center;
+    background-size: cover;
+    vertical-align: middle;
+    float: right;
+}
+
+.chevron.up {
+    background-image: url('../img/chevron_up.svg');
+    width: 19px;
+    height: 19px;
+}
+
+.chevron.down {
+    background-image: url('../img/chevron_down.svg');
+    width: 19px;
+    height: 19px;
+}
+
+@media only screen and (orientation: landscape) and (max-height: 400px) {
+    .logo img {
+        height: 36px;
+        display: inline;
+        margin-top: 4px;
+    }
+    header .buttons {
+        display: inline;
+        float: right;
+        margin: 4px 0;
+    }
+    .panels {
+        top: 78px;
+        width: 100vw;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    header {
+        padding: 24px 48px;
+    }
+    .logo img {
+        display: inline;
+    }
+    header .buttons {
+        display: inline;
+        float: right;
+    }
+    .panels {
+        width: 100vw;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        padding: 0 48px;
+    }
+    #game canvas {
+        width: 250px;
+        height: 250px;
+    }
+}

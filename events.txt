@@ -1,0 +1,429 @@
+info: recording started: 2020-12-04 12:07:17 AEDT
+info: recording started (epoch seconds): 1607044037
+info: recording host: labnuc3
+info: recording chip id: 7048
+info: experiment tag: NPC_mergedpilot_motorstim
+info: electrode config: /home/labuser/cfg/gen3b.cfg
+info: dishserver config: /home/labuser/src/dishpill/conf/merged_75-150mv.conf
+info: electrode metadata: /home/labuser/cfg/gen3b.elconf
+info: replay path: /data/trace/7048.2020-12-04.4.replay.bin
+info: git version: 2974ad644d56c669f9895e53e284d3b0f0749a35
+info: git description: v0.5-46-g2974ad6
+info: time limit (seconds): 1200
+202364032: game begin
+202397232: ball bounce
+202407432: ball bounce
+202456232: ball return
+202487832: ball bounce
+202515232: ball bounce
+202568232: ball bounce
+202575232: ball missed
+202575232: motor layout: 5
+202769432: ball bounce
+202812032: ball bounce
+202829432: ball missed
+202829432: motor layout: 2
+203023632: ball bounce
+203083632: ball missed
+203083632: motor layout: 2
+203277832: ball bounce
+203289032: ball bounce
+203336832: ball return
+203371432: ball bounce
+203395832: ball bounce
+203453832: ball bounce
+203455832: ball missed
+203455832: motor layout: 2
+203650032: ball bounce
+203705432: ball bounce
+203710032: ball missed
+203710032: motor layout: 2
+203904232: ball bounce
+203914232: ball bounce
+203964232: ball missed
+203964232: motor layout: 2
+204158432: ball bounce
+204194232: ball bounce
+204218432: ball missed
+204218432: motor layout: 2
+204412632: ball bounce
+204445832: ball bounce
+204471632: ball return
+204530632: ball bounce
+204572232: ball bounce
+204589632: ball return
+204648632: ball bounce
+204698632: ball bounce
+204708632: ball missed
+204708632: motor layout: 5
+204902832: ball bounce
+204905232: ball bounce
+204962832: ball missed
+204962832: motor layout: 5
+205157032: ball bounce
+205163032: ball bounce
+205216032: ball return
+205235032: ball bounce
+205275032: ball bounce
+205307032: ball bounce
+205334032: ball return
+205379032: ball bounce
+205393032: ball bounce
+205451032: ball bounce
+205453032: ball missed
+205453032: motor layout: 5
+205647232: ball bounce
+205681032: ball bounce
+205706232: ball return
+205765232: ball bounce
+205808632: ball bounce
+205825232: ball missed
+205825232: motor layout: 2
+206019432: ball bounce
+206026232: ball bounce
+206079432: ball missed
+206079432: motor layout: 0
+206273632: ball bounce
+206333632: ball missed
+206333632: motor layout: 5
+206527832: ball bounce
+206536832: ball bounce
+206587832: ball missed
+206587832: motor layout: 5
+206782032: ball bounce
+206809432: ball bounce
+206841032: ball return
+206900032: ball bounce
+206924232: ball bounce
+206959032: ball return
+207018032: ball bounce
+207039032: ball bounce
+207078032: ball missed
+207078032: motor layout: 5
+207272232: ball bounce
+207303832: ball bounce
+207331232: ball return
+207390232: ball bounce
+207427032: ball bounce
+207449232: ball return
+207508232: ball bounce
+207550232: ball bounce
+207568232: ball missed
+207568232: motor layout: 5
+207762432: ball bounce
+207821432: ball return
+207880432: ball bounce
+207899032: ball bounce
+207940432: ball missed
+207940432: motor layout: 2
+208134632: ball bounce
+208143032: ball bounce
+208193632: ball return
+208219832: ball bounce
+208252632: ball bounce
+208296632: ball bounce
+208311632: ball return
+208370632: ball bounce
+208373432: ball bounce
+208430632: ball missed
+208430632: motor layout: 5
+208624832: ball bounce
+208684832: ball missed
+208684832: motor layout: 5
+208879032: ball bounce
+208932432: ball bounce
+208939032: ball missed
+208939032: motor layout: 5
+209133232: ball bounce
+209146232: ball bounce
+209192232: ball return
+209232232: ball bounce
+209251232: ball bounce
+209311232: ball missed
+209311232: motor layout: 0
+209505432: ball bounce
+209564432: ball return
+209623432: ball bounce
+209682432: ball return
+209741432: ball bounce
+209800432: ball return
+209859432: ball bounce
+209919432: ball missed
+209919432: motor layout: 5
+210113632: ball bounce
+210126832: ball bounce
+210172632: ball return
+210213232: ball bounce
+210231632: ball bounce
+210291632: ball missed
+210291632: motor layout: 0
+210485832: ball bounce
+210491432: ball bounce
+210545832: ball missed
+210545832: motor layout: 5
+210740032: ball bounce
+210788432: ball bounce
+210800032: ball missed
+210800032: motor layout: 2
+210994232: ball bounce
+211053232: ball return
+211112232: ball bounce
+211171232: ball return
+211230232: ball bounce
+211243032: ball bounce
+211290232: ball missed
+211290232: motor layout: 2
+211484432: ball bounce
+211516232: ball bounce
+211544232: ball return
+211603232: ball bounce
+211639832: ball bounce
+211663232: ball missed
+211663232: motor layout: 5
+211857432: ball bounce
+211878432: ball bounce
+211916432: ball return
+211975432: ball bounce
+211980432: ball bounce
+212034432: ball return
+212082432: ball bounce
+212093432: ball bounce
+212153432: ball missed
+212153432: motor layout: 2
+212347632: ball bounce
+212350432: ball bounce
+212407632: ball missed
+212407632: motor layout: 5
+212601832: ball bounce
+212604632: ball bounce
+212661832: ball missed
+212661832: motor layout: 2
+212856032: ball bounce
+212859032: ball bounce
+212916032: ball missed
+212916032: motor layout: 2
+213110232: ball bounce
+213113032: ball bounce
+213170232: ball missed
+213170232: motor layout: 0
+213364432: ball bounce
+213392032: ball bounce
+213424432: ball missed
+213424432: motor layout: 2
+213618632: ball bounce
+213678632: ball missed
+213678632: motor layout: 2
+213872832: ball bounce
+213890432: ball bounce
+213931832: ball return
+213985632: ball bounce
+213990832: ball bounce
+214050832: ball missed
+214050832: motor layout: 2
+214245032: ball bounce
+214304032: ball return
+214363032: ball bounce
+214395032: ball bounce
+214423032: ball missed
+214423032: motor layout: 5
+214617232: ball bounce
+214676232: ball return
+214705032: ball bounce
+214735232: ball bounce
+214795232: ball missed
+214795232: motor layout: 2
+214989432: ball bounce
+215022432: ball bounce
+215049432: ball missed
+215049432: motor layout: 2
+215243632: ball bounce
+215251432: ball bounce
+215302632: ball return
+215327032: ball bounce
+215361632: ball bounce
+215402632: ball bounce
+215421632: ball missed
+215421632: motor layout: 0
+215615832: ball bounce
+215626832: ball bounce
+215674832: ball return
+215708832: ball bounce
+215733832: ball bounce
+215790832: ball bounce
+215792832: ball return
+215851832: ball bounce
+215872832: ball bounce
+215910832: ball return
+215954832: ball bounce
+215969832: ball bounce
+216029832: ball missed
+216029832: motor layout: 5
+216224032: ball bounce
+216283032: ball return
+216342032: ball bounce
+216402032: ball missed
+216402032: motor layout: 2
+216596232: ball bounce
+216639232: ball bounce
+216656232: ball missed
+216656232: motor layout: 5
+216850432: ball bounce
+216910432: ball missed
+216910432: motor layout: 5
+217104632: ball bounce
+217164632: ball missed
+217164632: motor layout: 0
+217358832: ball bounce
+217368432: ball bounce
+217417832: ball return
+217447632: ball bounce
+217476832: ball bounce
+217526832: ball bounce
+217536832: ball missed
+217536832: motor layout: 2
+217731032: ball bounce
+217782832: ball bounce
+217791032: ball missed
+217791032: motor layout: 0
+217985232: ball bounce
+218044832: ball return
+218103832: ball bounce
+218163832: ball missed
+218163832: motor layout: 0
+218358032: ball bounce
+218418032: ball missed
+218418032: motor layout: 2
+218612232: ball bounce
+218619232: ball bounce
+218672232: ball missed
+218672232: motor layout: 2
+218866432: ball bounce
+218884832: ball bounce
+218926432: ball missed
+218926432: motor layout: 0
+219120632: ball bounce
+219142232: ball bounce
+219179632: ball return
+219238632: ball bounce
+219245432: ball bounce
+219297632: ball return
+219348632: ball bounce
+219356632: ball bounce
+219415632: ball return
+219451832: ball bounce
+219474632: ball bounce
+219534632: ball missed
+219534632: motor layout: 5
+219728832: ball bounce
+219788832: ball missed
+219788832: motor layout: 2
+219983032: ball bounce
+220011432: ball bounce
+220043032: ball missed
+220043032: motor layout: 5
+220237232: ball bounce
+220252632: ball bounce
+220296232: ball return
+220343432: ball bounce
+220355232: ball bounce
+220414232: ball return
+220434232: ball bounce
+220473232: ball bounce
+220525032: ball bounce
+220533232: ball missed
+220533232: motor layout: 5
+220727432: ball bounce
+220787432: ball missed
+220787432: motor layout: 0
+220981632: ball bounce
+220983232: ball bounce
+221041632: ball missed
+221041632: motor layout: 2
+221235832: ball bounce
+221240832: ball bounce
+221295832: ball missed
+221295832: motor layout: 0
+221490032: ball bounce
+221505632: ball bounce
+221549032: ball return
+221596832: ball bounce
+221608032: ball bounce
+221668032: ball missed
+221668032: motor layout: 0
+221862232: ball bounce
+221884232: ball bounce
+221921232: ball return
+221980232: ball bounce
+221988232: ball bounce
+222039232: ball return
+222092232: ball bounce
+222098232: ball bounce
+222157232: ball return
+222196232: ball bounce
+222216233: ball bounce
+222276233: ball missed
+222276233: motor layout: 0
+222470433: ball bounce
+222483033: ball bounce
+222530433: ball missed
+222530433: motor layout: 3
+222724633: ball bounce
+222783633: ball return
+222840633: ball bounce
+222842633: ball bounce
+222902633: ball missed
+222902633: motor layout: 0
+223096833: ball bounce
+223123433: ball bounce
+223156833: ball missed
+223156833: motor layout: 2
+223351033: ball bounce
+223410033: ball return
+223469033: ball bounce
+223487833: ball bounce
+223528033: ball return
+223587033: ball bounce
+223647033: ball missed
+223647033: motor layout: 2
+223841233: ball bounce
+223853233: ball bounce
+223901233: ball missed
+223901233: motor layout: 2
+224095433: ball bounce
+224154433: ball return
+224213433: ball bounce
+224272433: ball return
+224331433: ball bounce
+224391433: ball missed
+224391433: motor layout: 2
+224585633: ball bounce
+224586433: ball bounce
+224645633: ball missed
+224645633: motor layout: 0
+224839833: ball bounce
+224862033: ball bounce
+224899833: ball missed
+224899833: motor layout: 0
+225094033: ball bounce
+225126833: ball bounce
+225153033: ball return
+225212033: ball bounce
+225252433: ball bounce
+225271033: ball return
+225330033: ball bounce
+225378033: ball bounce
+225390033: ball missed
+225390033: motor layout: 0
+225584233: ball bounce
+225584833: ball bounce
+225644233: ball missed
+225644233: motor layout: 5
+225838433: ball bounce
+225898433: ball missed
+225898433: motor layout: 2
+226092633: ball bounce
+226132633: ball bounce
+226151633: ball return
+226210633: ball bounce
+226270633: ball missed
+226270633: motor layout: 5
